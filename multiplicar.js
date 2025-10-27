@@ -1,4 +1,4 @@
-export function multiplicar(numero1,numero2)
+function multiplicar(numero1,numero2)
 {
     let contador1 = 0;
     let contador2 = 0;
@@ -13,4 +13,7 @@ export function multiplicar(numero1,numero2)
         }
         contador1++;
     }
+    return produto;
 }
+
+module.exports = { multiplicar };
